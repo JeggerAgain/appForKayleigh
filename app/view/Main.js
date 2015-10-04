@@ -1,7 +1,10 @@
 Ext.define('KayleighsApp.view.Main', {
     extend: 'Ext.Container',
     xtype: 'main',
+    id: 'main',
     alias: 'widget.main',
+    fullscreen: true,
+    scroll: 'vertical',
     requires: [
         'KayleighsApp.view.TabPanel',
         'KayleighsApp.view.TitleBar'
@@ -11,7 +14,7 @@ Ext.define('KayleighsApp.view.Main', {
 
         items: [
         {
-            xtype: 'apptitlebar',
+            xtype: 'apptitlebar'
         },
         {
             xtype: 'tabpanel'

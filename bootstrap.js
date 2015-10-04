@@ -669,6 +669,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "KayleighsApp.controller.Main": [],
   "KayleighsApp.view.Main": [],
   "KayleighsApp.view.TabPanel": [],
   "KayleighsApp.view.TitleBar": []
@@ -1403,6 +1404,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "KayleighsApp.controller.Main": [],
   "KayleighsApp.view.Main": [
     "widget.main"
   ],
